@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atm.DoiController">
+   <children>
+      <Button layoutX="420.0" layoutY="101.0" mnemonicParsing="false" onAction="#romana" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="165.0" mnemonicParsing="false" onAction="#engl" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="232.0" mnemonicParsing="false" onAction="#fran" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="299.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="299.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="232.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="165.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="101.0" mnemonicParsing="false" onAction="#magh" prefHeight="42.0" prefWidth="54.0" />
+      <Rectangle fx:id="welcome" arcHeight="5.0" arcWidth="5.0" fill="#fff966" height="350.0" layoutX="81.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="327.0" />
+      <Label layoutX="186.0" layoutY="64.0" text="Alegeti  limba">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="98.0" layoutY="114.0" text="Maghiara" />
+      <Label layoutX="349.0" layoutY="114.0" text="Romana" />
+      <Label layoutX="349.0" layoutY="178.0" text="Engleza" />
+      <Label layoutX="349.0" layoutY="245.0" text="Franceza" />
+      <ImageView fitHeight="93.0" fitWidth="63.0" layoutX="155.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagini/hungarian.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="63.0" layoutX="280.0" layoutY="103.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagini/romanian.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="63.0" layoutX="280.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagini/english.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="63.0" layoutX="280.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imagini/french.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

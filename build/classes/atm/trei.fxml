@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atm.TreiController">
+   <children>
+      <Button layoutX="420.0" layoutY="101.0" mnemonicParsing="false" onAction="#ok" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="165.0" mnemonicParsing="false" onAction="#corectare" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="232.0" mnemonicParsing="false" onAction="#anulare" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="299.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="299.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="232.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="165.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="101.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Rectangle fx:id="welcome" arcHeight="5.0" arcWidth="5.0" fill="#fff966" height="350.0" layoutX="81.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="327.0" />
+      <Label layoutX="123.0" layoutY="48.0" text="Introduceti codul PIN">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="322.0" layoutY="240.0" text="Anulare">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="307.0" layoutY="173.0" text="Corectare">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="366.0" layoutY="109.0" text="OK">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="pin" layoutX="103.0" layoutY="110.0" prefHeight="25.0" prefWidth="94.0" />
+   </children>
+</AnchorPane>

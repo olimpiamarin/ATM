@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="488.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="atm.PatruController">
+   <children>
+      <Button layoutX="420.0" layoutY="112.0" mnemonicParsing="false" onAction="#retragere" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="176.0" mnemonicParsing="false" onAction="#interogare" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="243.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="420.0" layoutY="310.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="310.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="243.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="176.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Button layoutX="14.0" layoutY="112.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="54.0" />
+      <Rectangle fx:id="welcome" arcHeight="5.0" arcWidth="5.0" fill="#fff966" height="350.0" layoutX="81.0" layoutY="32.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="4.0" width="327.0" />
+      <Label layoutX="101.0" layoutY="41.0" prefHeight="74.0" prefWidth="293.0" text="Va rugam selectati tranzatia dorita" textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="264.0" layoutY="184.0" text="Interogare sold">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="233.0" layoutY="120.0" text="Retragere numerar">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
